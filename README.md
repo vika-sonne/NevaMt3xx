@@ -10,3 +10,6 @@ Serial interface access library of electric power consumption counter of "Neva M
 
 2. [argparse](https://pypi.org/project/argparse/).
 Установка аналогично: `pip install argparse`.
+
+
+А также имитатор работы счётчика электроэнергии для отладки и технологических прогонов сервисного п/о работы с этими счётчиками. Имитатор представляет сервер, ожидающий подключений по TCP порту. [Пример запуска имитатора](meter_imitator.sh) со списком значений для OBIS параметров.
